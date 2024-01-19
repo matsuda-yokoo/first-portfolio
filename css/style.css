@@ -34,7 +34,7 @@ a,a:hover,a:visited{
 .image {
     width: 100%;
     height: 420px;
-    background-image: url("file:///C:/Users/matsuda/portfolio/img/mainvisual.png");
+    background-image: url("https://github.com/matsuda-yokoo/first-portfolio/blob/main/img/mainvisual.png?raw=true");
     background-size: cover;
     background-position: center;
   }
