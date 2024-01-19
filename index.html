@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work -Portfolio</title>
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header id ="header">
+        <h1 id="title">My Work</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.instagram.com/"><input type="image" src="img/icon.png" width="25"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image">    
+        </div>
+
+        <div id="about" class="wrapper">
+            <h2 class="sec-title">About</h2>
+            <ul>
+                <li>Yoko Matsuda</li>
+                <li>6th Floor xxxxx Building x-x-x UmedaChayamachi, Chuo-Ku, Osaka Japan</li>
+                <li>el: 000-0000-0000</li>
+                <li>url: www.xxxxx.jp</li>
+                <li>mail: xxx@xxxxx.jp</li>
+                <li>プログラミング勉強中です。よろしくお願いします。プログラミング勉強中です。よろしくお願いします。プログラミング勉強中です。よろしくお願いします。プログラミング勉強中です。よろしくお願いします。</li>
+            </ul>
+        </div>
+
+        <div id="works" class="wrapper"> 
+            <h2 class="sec-title">Works</h2>
+            <ul>
+                <li><img src="img/works1.jpeg" width="300" height="200"></li>
+                <li><img src="img/works2.jpg" width="300" height="200"></li>
+                <li><img src="img/works3.jpg" width="300" height="200"></li>
+                <li><img src="img/works4.jpg" width="300" height="200"></li>
+                <li><img src="img/works5.jpg" width="300" height="200"></li>
+                <li><img src="img/works6.jpg" width="300" height="200"></li>
+            </ul>
+
+        </div>
+        <div id="news" class="wrapper"> 
+            <h2 class="sec-title">News</h2>
+            <dl>
+                <dt >2024.xx.xx</dt>
+                <dd >HTMLの勉強を始めました。</dd>
+
+                <dt >2023.xx.xx</dt>
+                <dd >Javaの勉強を始めました。</dd>
+
+                <dt>2022.xx.xx</dt>
+                <dd>SQLの勉強を始めました。</dd>
+
+                <dt>2022.xx.xx</dt>
+                <dd>Gitの勉強を始めました。</dd>
+
+                <dt>2022.xx.xx</dt>
+                <dd>ITパスポートの勉強を始めました。</dd>
+
+            </dl>
+
+        </div>
+        <div id="contact" class="wrapper">
+            <h2 class="sec-title">Contact</h2> 
+            <form class="form-area"action="">
+            <div class="contact">
+                <p>
+                    <label for="name" id="nametag">NAME</label>
+                    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="80" />
+                </p>
+                <p>
+                    <label for="email" id="emailtag">E-mail</label>
+                    <input type="email" id="email" pattern=".+@example\.com" size="80" required />
+                </p>
+                <p>
+                    <label for="message" id="messagetag">MESSAGE</label>
+                    <textarea id="t_message" name="message" rows="10" placeholder="こちらにお問い合わせ内容を入力してください。"></textarea>
+                </p>
+                </p>
+            </div>
+            <div class="button">
+                <input type="submit" value="送信"/>
+            </div>
+            </form>
+        </div>
+    </main>
+    
+    <footer>@2024 My Work</footer>
+</body>
+</html>
